@@ -1,0 +1,39 @@
+Este dicionario de dados descreve dados de viagens de veiculos de aluguel de alto volume.
+
+Cada linha representa uma unica viagem despachada por uma das bases de veiculos de aluguel classificadas 
+como alto volume (acima de 10.000 viagens) licenciadas pela cidade de Nova York.
+
+As empresas que despacham mais de 10.000 viagens por dia tem uma categoria de licença diferente,
+a HVFHS (High-Volume For-Hire Services - serviços de Alto Volume para Veículos de Aluguel).
+
+O orgao responsavel pelo licenciamento e o TLC (Taxi and Limousine Commission - Comissão de Táxi e Limusine)
+
+
+Hvfhs_license_num                                       O numero da licenca da base ou empresa
+Dispatching_base_num                                    O Número de Licença da Base do TLC da base que despachou a viagem.
+Pickup_datetime                                         Data/Hora do inicio da viagem.
+DropOff_datetime                                        Data/Hora do termino da viagem.
+PULocationID                                            Zona de inicio da viagem.
+DOLocationID                                            Zona de fim da viagem.
+originating_base_num                                    Número da base que recebeu a solicitação original da viagem.
+request_datetime                                        Data/hora em que o passageiro solicitou ser coletado.
+on_scene_datetime                                       Data/hora em que o motorista chegou ao local de coleta (apenas para veículos acessíveis).
+trip_miles                                              Total de milhas da viagem do passageiro.
+trip_time                                               Tempo total em segundos da viagem do passageiro.
+base_passenger_fare                                     Tarifa base do passageiro sem adição de pedágios, gorjetas, impostos e taxas.
+tolls                                                   Valor total de todos os pedágios pagos na viagem.
+bcf                                                     Valor total arrecadado na viagem para o Fundo de Carros Pretos (Fundo especifico para motoristas que usam carros pretos)
+sales_tax                                               Valor total arrecadado na viagem para o imposto sobre vendas do Estado de Nova York (NYS sales tax).
+congestion_surcharge                                    Valor total arrecadado na viagem para a taxa de congestionamento do Estado de Nova York (NYS congestion surcharge).
+airport_fee                                             $2,50 tanto para o desembarque quanto para a coleta nos aeroportos de LaGuardia, Newark e John F. Kennedy.
+tips                                                    Valor total de gorjetas recebido do passageiro.
+driver_pay                                              Pagamento total do motorista (excluindo pedágios e gorjetas e líquido de comissões, sobretaxas ou impostos).
+shared_request_flag                                     O passageiro concordou com uma viagem compartilhada/pooling, independentemente de a viagem ter efetivada com o passageiro do compartilhamento ou não? (Y/N)
+shared_match_flag                                       O passageiro compartilhou o veículo com outro passageiro que fez uma reserva separada em algum momento durante a viagem? (Y/N)
+access_a_ride_flag                                      A viagem foi administrada em nome da Autoridade de Transporte Metropolitano (MTA)? (Y/N)
+wav_request_flag                                        O passageiro solicitou um veículo acessível para cadeirantes (WAV)? (Y/N)
+wav_match_flag                                          A viagem ocorreu em um veículo acessível para cadeirantes (WAV)? (Y/N)
+
+
+
+

@@ -1,0 +1,28 @@
+- Gerar um relatório no modelo da amostra.csv
+
+- regras: 
+data de inicio da corrida
+zona_corrida (Nome da zona da cidade)
+licensa
+tempo medio de espera
+tempo medio de viagem
+quantidade de corridas
+distancia media (em Km)
+valor total sem impostos em R$ ( pagamento total do motorista + gorjeta)
+valor liquido em R$ (valor total sem impostos - todos os impostos)
+quantidade de viagens compartilhadas
+Indicador Acessibilidade: quantidade de solicitacoes de veiculos acessivel - viagens que ocorreram em veiculos acessiveis / quantidade de solicitacoes de veiculos acessivel
+
+
+# Dicionario de dados da amostra
+data_corrida = 'Data em que ocorreu a viagem',
+zona_inicio = 'Nome da zona de inicio da viagem',
+licensa = 'Nome da empresa ou da base responsavel pela licensa',
+tempo_medio_espera = 'Duracao media entre a solicitacao da corrida e a chegada do motorista (em minutos)',
+tempo_media_viagem = 'Duração media das corridas (em minutos)',
+quantidade_corridas = 'Quantidade total de corridas na data',
+distancia_media = 'Distancia media da corrida (em km)',
+valor_total_recebido = 'Valor total recebido pelo motorista pela viagem, adicionando gorjetas',
+valor_liquido_recebido = 'Valor recebido descontado de impostos',
+qtde_viagens_compartilhadas = 'Quantidade de viagens compartilhadas efetivadas',
+percentual_acessibilidade = 'Percentual de viagens solicitadas com acessibilidade atendidas'
